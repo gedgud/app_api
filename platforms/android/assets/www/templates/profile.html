@@ -1,0 +1,18 @@
+<ion-view title="Profile" ng-init="init()">
+    <ion-content>
+        <div class="list card">
+            <div class="item item-avatar">
+                <img ng-src="{{profileData.picture.data.url}}">
+                <h2>{{profileData.name}}</h2>
+            </div>
+
+            <form ng-submit="submit()">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">About</span>
+                    <input type="text" name="about" placeholder="{{userdata.about}}" ng-model="data.about">
+                </label>
+                <input class="button button-block button-positive" type="submit" name="submit" value="Update">
+            </form>
+        </div>
+    </ion-content>
+</ion-view>

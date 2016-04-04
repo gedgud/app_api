@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_background_selected.png",
+        "source": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\res\\drawable-xxhdpi\\com_facebook_button_like_background_selected.png"
+    },
+    {
+        "merged": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_background.png",
+        "source": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\res\\drawable-xxhdpi\\com_facebook_button_like_background.png"
+    },
+    {
+        "merged": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon.png",
+        "source": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\res\\drawable-xxhdpi\\com_facebook_button_like_icon.png"
+    },
+    {
+        "merged": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_pressed.png",
+        "source": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\res\\drawable-xxhdpi\\com_facebook_button_like_pressed.png"
+    },
+    {
+        "merged": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Appas\\fb\\platforms\\android\\phonegap-facebook-plugin\\facebookexample812100-FacebookLib\\res\\drawable-xxhdpi\\com_facebook_button_like_icon_selected.png"
+    }
+]

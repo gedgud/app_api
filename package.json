@@ -1,0 +1,39 @@
+{
+  "name": "facebookexample",
+  "version": "1.0.0",
+  "description": "FacebookExample: An Ionic project",
+  "dependencies": {
+    "gulp": "^3.5.6",
+    "gulp-sass": "^0.7.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-rename": "^1.2.0"
+  },
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "gulp-util": "^2.2.14",
+    "shelljs": "^0.3.0"
+  },
+  "cordovaPlugins": [
+    "org.apache.cordova.camera",
+    {
+      "locator": "https://github.com/wymsee/cordova-imagePicker.git",
+      "id": "cordova-plugin-image-picker"
+    },
+    "cordova-plugin-camera@2.1.1",
+    "cordova-plugin-inappbrowser@1.2.0",
+    "org.apache.cordova.inappbrowser",
+    {
+      "variables": {
+        "APP_ID": "136301300064728",
+        "APP_NAME": "myApplication"
+      },
+      "locator": "https://github.com/Wizcorp/phonegap-facebook-plugin.git",
+      "id": "phonegap-facebook-plugin"
+    }
+  ],
+  "cordovaPlatforms": [
+    "android",
+    "ios"
+  ]
+}

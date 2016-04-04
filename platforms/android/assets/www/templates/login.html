@@ -1,0 +1,17 @@
+<ion-view hide-nav-bar="true" can-swipe-back="false" class="signup-background" ng-controller="LoginController" title="Login" ng-init="init()">
+    <ion-content>
+        <div class="padding">
+            <img ng-src="{{srcImage}}" id="srcImage" width="250 " height="250" style="display: block; margin: 0 auto;" />
+            <img ng-click="login()" ng-src="img/facebook-login.png" alt="facebook login" style="margin-top: 40px;" />
+            <button class="button button-block button-balanced" ng-click="selImages()" ng-disabled="!ready">
+                Select Images
+            </button>
+            test
+            {{srcImage}}
+
+            <p ng-repeat="img in images">
+                <img ng-src="{{img}}" style="max-width:250px;max-height:250px" />
+            </p>
+        </div>
+    </ion-content>
+</ion-view>

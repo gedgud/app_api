@@ -1,0 +1,21 @@
+<ion-view title="API test" ng-init="init()">
+    <ion-content>
+        <form ng-submit="submit()">
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">facebook</span>
+                <input type="text" name="fbid" placeholder="enter fb id" ng-model="data.fbid">
+            </label>
+
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Username</span>
+                <input type="text" name="accestoken" placeholder="enter username" ng-model="data.accesToken">
+            </label>
+
+            <input class="button button-block button-positive" type="submit" name="submit" value="Submit to server">
+        </form>
+        API:
+        {{response}} ID: {{response.id}}
+    </ion-content>
+</ion-view>
